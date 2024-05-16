@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7fa4d0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.formulario {
+    background-color: #d79d9d;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #74355e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.botao-login:hover {
+    background-color: #4c84af;
+    /* Verde */
+    color: rgb(20, 17, 17);
+    /* Branco */
+    cursor: pointer;
+    /* Muda o cursor para mãozinha */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    width: 80%;
+    max-width: 500px;
+    /* Limita a largura máxima do formulário */
+}
+
+.redes-sociais i {
+    font-size: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: #007bff;
+    /* Cor do LinkedIn */
+}
+
+.redes-sociais i:hover {
+    color: #081524;
+    /* Cor do LinkedIn em hover */
+}
+
+.github-icon {
+    color: #333;
+    /* Cor do ícone do GitHub */
+}
+
+.github-icon:hover {
+    color: #389ba2;
+    /* Cor do ícone do GitHub em hover */
+}
+
+i {
+    padding: 5px;
+    border-radius: 50%;
+    /* Borda arredondada */
+}
+
+.redes-sociais img:hover {
+    opacity: 0.8;
+    /* Diminui a opacidade da imagem em hover */
+    transform: scale(1.1);
+    /* Aumenta a escala da imagem em hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Adiciona sombra na imagem em hover */
+}
+
+/* Ícones menores (menu de navegação): */
+.menu-redes-sociais i {
+    font-size: 16px;
+    /* Tamanho da fonte do ícone */
+    margin: 5px;
+    /* Espaço entre os ícones */
+}
+
+/* Ícones maiores (seção de redes sociais): */
+.secao-redes-sociais i {
+    font-size: 32px;
+    /* Tamanho da fonte do ícone */
+    margin: 10px;
+    /* Espaço entre os ícones */
+}
+
+/* Ícones responsivos (se adaptam à tela): */
+.icone-responsivo {
+    font-size: 1.5em;
+    /* Tamanho da fonte em relação à unidade em */
+}
+
+.redes-sociais i {
+    font-size: 24px;
+    /* Tamanho dos ícones */
+    color: #333;
+    /* Cor dos ícones */
+    margin: 5px;
+    /* Espaço entre os ícones */
+}
+
+.redes-sociais i:hover {
+    color: #007bff;
+    /* Cor dos ícones em hover */
+}
